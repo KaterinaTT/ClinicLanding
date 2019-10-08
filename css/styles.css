@@ -1,0 +1,711 @@
+*
+{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.pp
+{
+	text-align: center;
+	 color: white;
+   
+    font-size: 70px;
+    font-family: "OpenSansBold";
+}
+.ll
+{
+	text-align: center;
+	 color: white;
+    
+    font-size: 30px;
+    margin-top: -20px;
+    font-family: "OpenSansBold";
+
+}
+
+.clearfix
+{
+    clear: both;
+    height: 0;
+}
+.backgroundorange1
+{
+    width: 100%;
+    height: 5px;
+    background-color: rgb(250, 105, 0);
+}
+.backgroundblue1
+{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(105, 210, 231);
+}
+.backgroundgrey1
+{
+    width: 100%;
+    height: 520px;
+    background-color: rgb(241, 241, 241);
+}
+.backgroundorange2
+{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(250, 105, 0);
+    padding-top: 2%;
+}
+.backgroundorange3
+{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(250, 105, 0);
+}
+.backgroundwhite
+{
+    width: 100%;
+    height: 450px;
+    background-color: white;
+    border-radius: 185px / 225px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.backgroundgrey2
+{
+    width: 100%;
+    height: 520px;
+    background-color: rgb(241, 241, 241);
+}
+.backgroundblue2
+{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(105, 210, 231);
+}
+@font-face
+{
+    font-family:'OpenSans'; 
+    src: url(../fonts/OpenSans.ttf);
+}
+@font-face
+{
+    font-family:'OpenSansBold'; 
+    src: url(../fonts/OpenSansBold.ttf);
+}
+@font-face
+{
+    font-family:'OpenSanslight'; 
+    src: url(../fonts/OpenSanslight.ttf);
+}
+.rectanglelogo1
+{
+	width: 50px;
+	height: 36px;
+    background: rgb(250, 105, 0);
+}
+.rectanglelogo2
+{
+    position: absolute;
+	width: 30px;
+	height: 6px;
+    background: white;
+    margin-top: 16px;
+    margin-left: 10px;
+}
+.rectanglelogo3
+{
+    position: absolute;
+	width: 6px;
+	height: 30px;
+    background: white;
+    margin-top: 5px;
+    margin-left: 22px;
+}
+.triangle
+{
+	width: 0px;
+	height: 0px;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+    border-top: 10px solid rgb(250, 105, 0);;
+}
+.circle
+{
+	width: 40px;
+	height: 40px;
+    border-radius: 20px;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+}
+.textlogo1
+{
+    margin-top: -48px;
+    margin-left: 60px;
+    font-size: 19px;
+    font-family: "OpenSansBold";
+}
+.textlogo2
+{
+    margin-left: 60px;
+    font-size: 16px;
+    font-family: "OpenSans";
+}
+.textheader1
+{
+    color: white;
+    position: absolute;
+    top: 117px;
+    left: 850px;
+    font-size: 70px;
+    font-family: "OpenSansBold";
+}
+.textheader2
+{
+    color: white;
+    position: absolute;
+    top: 225px;
+    left: 803px;
+    font-size: 30px;
+    margin-top: -20px;
+    font-family: "OpenSansBold";
+    padding-bottom: 5%;
+}
+
+.box
+{
+    width: 63%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    background-color: white;
+    margin: 8% auto;
+    margin-top: -10%;
+}
+.boxheader
+{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 35px;
+    margin-bottom: -1%;
+    font-family: "OpenSansBold";
+}
+.line
+{
+    height: 0px;
+    width: 40%;
+    border-top: 1px solid;
+    margin: 3% auto;
+}
+.boxtext
+{
+    font-size: 20px;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-family: "OpenSansLight";
+}
+.imgmolekula
+{
+    background: url("../images/sprite1.png") no-repeat;
+    background-size: 100%;
+    background-color: white;
+    border-radius: 10px;
+    width: 160px;
+    height: 160px;
+    margin-left: auto;
+}
+.imgmed
+{
+    background: url("../images/sprite1.png") no-repeat;
+    background-position: 0 -160px;
+    background-size: 160px;
+    background-color: rgb(105, 210, 231);
+    border-radius: 10px;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+}
+.imgatom
+{
+    background: url("../images/sprite1.png") no-repeat;
+    background-position: 0 -320px;
+    background-size: 160px;
+    background-color: white;
+    border-radius: 10px;
+    width: 160px;
+    height: 160px;
+    margin-right: auto;
+}
+.imgwoman
+{
+    background: url("../images/sprite1.png") no-repeat;
+    background-position: 0 -480px;
+    background-size: 160px;
+    background-color: white;
+    border-radius: 80px;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+}
+.imgbrowser
+{
+    background: url("../images/browser.png") no-repeat;
+    background-size: 400px 250px;
+    width: 400px;
+    height: 250px;
+    margin: 0 auto;
+}
+.textmolekula
+{
+    margin-left: 45%;
+    font-size: 25px;
+    width: 65%;
+    text-align: center;
+    font-family: "OpenSans";
+}
+.textmed
+{
+    margin-left: 18%;
+    font-size: 25px;
+    width: 65%;
+    text-align: center;
+    font-family: "OpenSans";
+}
+.textatom
+{
+    margin-left: -10%;
+    font-size: 25px;
+    width: 65%;
+    text-align: center;
+    font-family: "OpenSans";
+}
+.text3section
+{
+    color: white;
+    font-size: 20px;
+    width: 35%;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    text-align: center;
+    font-family: "OpenSansLight";
+}
+.item
+{
+    background: rgb(241, 241, 241);    
+    text-align: center;
+    height: 490px;
+}
+.item1
+{
+    height: 250px;
+}
+.item2
+{
+    padding-top: 2%;
+}
+#myCarousel1
+{
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 3%
+}
+.carousel-caption
+{
+    padding: 5%;
+    text-shadow: none;
+    color: black;
+}
+.carousel-caption1
+{
+    padding: 10px;
+    text-shadow: none;
+    color: black;
+}
+.textcarousel1
+{
+    font-size: 25px;
+    font-family: "OpenSansBold";
+    margin: 0 auto;
+}
+.textcarousel2
+{
+    font-size: 19px;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    font-family: "OpenSansLight";
+}
+.textcarousel3
+{
+    font-size: 16px;
+    width: 70%;
+    font-family: "OpenSansLight";
+    margin: 0 auto;
+}
+.carousel-indicators .active
+{
+    background-color: rgb(105, 210, 231);
+    border-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 19px;
+    height: 19px;
+    border-width: 1px;
+}
+.carousel-indicators li
+{
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 17px;
+    height: 17px;
+}
+.carousel-control:hover,
+.carousel-control:focus {
+  color: rgb(127, 127, 127);
+  text-decoration: none;
+  filter: alpha(opacity=90);
+  outline: 0;
+  opacity: 1;
+}
+.carousel-control,
+.carousel-control
+{
+    color: rgb(127, 127, 127);
+    text-decoration: none;
+    filter: alpha(opacity=90);
+    outline: 0;
+    opacity: 1;
+}
+.arrowleftcircle
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(127, 127, 127);
+    text-align: center;
+    font-size: 20px;
+    margin-top: 115px;
+    margin-left: 10px;  
+}
+.arrowrightcircle
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(127, 127, 127);
+    text-align: center;
+    font-size: 20px;
+    margin-top: 115px;
+    margin-left: 360px;  
+}
+.arrowleft
+{
+    width: 13px;
+    height: 13px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    border-color: rgb(127, 127, 127);
+    border-width: 2px;
+    border-style: solid;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    margin-left: 16px;
+    margin-top: 9px;
+}
+.arrowright
+{
+    width: 13px;
+    height: 13px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    border-color: rgb(127, 127, 127);
+    border-width: 2px;
+    border-style: solid;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    margin-left: 10px;
+    margin-top: 9px;
+}
+.textorangewhite1
+{
+    width: 50%;
+    font-family: "OpenSansBold";
+    color: white;
+    font-size: 22px;
+    margin-left: 50%;
+    margin-top: 7%;
+}
+.textorangewhite2
+{
+    width: 40%;
+    font-family: "OpenSansLight";
+    color: white;
+    font-size: 20px;
+    margin-left: 50%;
+}
+.textorangewhite3
+{
+    margin-top: 10%;
+    font-size: 14px;
+}
+.textorangewhite4
+{
+    margin-top: 5%;
+    font-size: 14px;
+}
+.col-md-6
+{
+    padding: 0;
+}
+.logobottom
+{
+    margin-top: 10%;
+}
+.imgfacebook
+{
+    background: url("../images/sprite2.png") no-repeat;
+    background-size: 38px;
+    width: 38px;
+    height: 38px;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 5%;
+    border-radius: 3px 0px 0px 3px;
+    display: inline-block;
+}
+.imgtwitter
+{
+    background: url("../images/sprite2.png") no-repeat;
+    background-position: 0 -38px;
+    background-size: 38px;
+    width: 38px;
+    height: 38px;
+    border-width: 1px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-style: solid;
+    display: inline-block;
+}
+.imgpinterest
+{
+    background: url("../images/sprite2.png") no-repeat;
+    background-position: 0 -76px;
+    background-size: 38px;
+    width: 38px;
+    height: 38px;
+    border-width: 1px;
+    border-right-width: 0px;
+    border-style: solid;
+    display: inline-block;
+}
+.imglinkedin
+{
+    background: url("../images/sprite2.png") no-repeat;
+    background-position: 0 -114px;
+    background-size: 38px;
+    width: 38px;
+    height: 38px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0px 3px 3px 0px;
+    display: inline-block;
+}
+.textbottom1
+{
+    width: 70%;
+    font-size: 16px;
+    font-family: "OpenSansLight";
+    margin-top: 2%;
+}
+.textbottom2
+{
+    width: 70%;
+    font-size: 16px;
+    font-family: "OpenSansLight";
+    margin-top: 5%;
+}
+.textbottom3
+{
+    width: 70%;
+    font-size: 25px;
+    font-family: "OpenSansBold";
+    margin-top: 8%;
+}
+.textbottom4
+{
+    font-size: 14px;
+    font-family: "OpenSansBold";
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.textbottom5
+{
+    font-size: 14px;
+    font-family: "OpenSans";
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+.textbottom6
+{
+    color: white;
+    font-family: "OpenSans";
+    margin-top: 5%;
+}
+.textbottom7
+{
+    color: white;
+    font-family: "OpenSans";
+    margin-top: 5%;
+    margin-left: 30%;
+}
+.boxsquare
+{
+    width: 90px;
+    height: 90px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    margin-top: 5%;
+    background-color: white;
+    float: left;
+}
+.navbar-default
+{
+    background-color: rgb(105, 210, 231);
+    border-color: rgb(105, 210, 231);
+    margin-top: 3%;
+}
+.container
+{
+    padding: 0;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+a:hover
+{
+    text-decoration: none;
+    color: black;
+}
+.active
+{
+    color: #777;
+}
+#animated-canvas {
+    width: 100%;
+    height: calc(100% - 52px);
+	
+}
+
+.navbar-default .navbar-toggle
+{
+    width: 40px;
+	height: 40px;
+    border-radius: 20px;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    color: white;
+}
+.navbar-default .navbar-toggle .icon-bar
+{
+    height: 1px;
+    background-color: white;
+    margin-left: -1px;
+    margin-top: 2px;
+    margin-bottom: 7px;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover
+{
+    background-color: transparent; 
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form
+{
+    border-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover
+{
+    background-color: transparent;
+    color: #777;
+}
+@media all and (max-width: 1024px)
+{
+    .textorangewhite1
+    {
+        margin-top: 2%;
+    }
+}
+@media all and (max-width: 990px)
+{
+    .imgmolekula, .imgatom, .textmolekula, .textatom
+    {
+        margin: 0 auto;
+    }
+    .backgroundblue1, .backgroundgrey1, .backgroundorange2, .backgroundorange3, .backgroundgrey2, .backgroundblue2
+    {
+        height: 100%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .backgroundwhite
+    {
+        display: none;
+    }
+    .textorangewhite1, .textorangewhite2
+    {
+        margin: 0 auto;
+        width: 80%;
+    }
+    #myCarousel2
+    {
+        width: 100%;
+    }
+    .textbottom7
+    {
+        margin-left: 0;
+    }
+
+}
+@media all and (max-width: 500px)
+{
+    #myCarousel2
+    {
+        display: none;
+    }
+    .textbottom4, .textbottom5
+    {
+        margin-left: 35%;
+    }
+}
+@media all and (max-width: 400px)
+{
+    #myCarousel1
+    {
+        display: none;
+    }
+    .text3section
+    {
+        display: none;
+    }
+}

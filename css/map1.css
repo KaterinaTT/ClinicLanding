@@ -1,0 +1,304 @@
+::-webkit-input-placeholder {color:white;}
+::-moz-placeholder          {color:white;}
+:-moz-placeholder           {color:white;}
+:-ms-input-placeholder      {color:white;}
+
+body{
+    padding: 0;
+    margin: 0;
+    }
+ @font-face 
+ {
+    font-family: Signika-Semibold;
+    src: url(../img/Signika-Semibold.otf);
+}
+
+*{font-family:Signika-Semibold }
+input{outline:none;}
+
+p input {
+    width: 100%;
+    color:white;
+}
+h3{margin: 0;text-align: center;}
+h1{border-bottom-style:dotted;border-bottom-color:black;border-bottom-width: 10px;width:50px; margin:0 auto;margin-bottom: 7%}
+p{margin:10px 5% 20px}
+
+.clearfix
+{
+    clear: both;
+    height: 0;
+}
+.backgroundblue1
+{
+    height: auto;
+}
+#user {
+    
+    padding: 0;
+    height: 104px; 
+    width: 100%;
+    background-color: black;
+    border-radius: 7px;
+    border:black; 
+    box-sizing: border-box;
+    padding-left: 2%;
+    padding-top:2%;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;    
+   } 
+
+#wd {
+       
+    padding-left: 2%;
+    padding-top: 0px;
+    height: 40px; 
+    background-color: black;
+    border-radius: 10px;
+    border:black; 
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+
+#sub
+   {
+    background-color:black;
+    border:black;
+    height: 30px;
+    width: 20%;
+    border-radius: 7px;
+    color:white;
+   }
+
+   #main
+{
+    width:100%;
+    background-color:#69d2e7;
+    height:auto; 
+}
+
+.cont
+{
+    width:40%;
+    height:auto;
+    margin:0 auto;
+    text-align: center;
+}
+.left
+{
+    width:50%;
+    box-sizing:content-box;
+    float:left;
+}
+.right
+{
+    width:50%;
+    box-sizing:content-box; 
+    float:right;
+}
+.batt
+{margin-top: 30px;
+margin-bottom: 30px;}
+.home
+{
+    width:100%;
+    background-color:#69d2e7;
+    height:auto;
+    margin-top:200px;
+    text-align: center;
+    padding:40px 0; 
+}
+.contact{margin: 0;
+    padding: 0;
+     margin:5% 0 0 ;
+     text-align:center;
+     font-weight: bold;
+     font-size:30px
+    }
+.navbar-default .navbar-nav > li > a
+{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+    @media all and (max-width: 900px) 
+    {
+     .cont
+     {
+        display: flex;
+        flex-direction: column;
+        width:100%;
+     }
+     .left{width: 100%} 
+     .right{width: 100%}
+}
+.backgroundgrey2
+{
+    width: 100%;
+    height: 520px;
+    background-color: rgb(241, 241, 241);
+}
+.textbottom1
+{
+    width: 70%;
+    font-size: 16px;
+    font-family: "OpenSansLight";
+    margin-top: 2%;
+}
+.textbottom2
+{
+    width: 70%;
+    font-size: 16px;
+    font-family: "OpenSansLight";
+    margin-top: 5%;
+}
+.textbottom3
+{
+    width: 70%;
+    font-size: 25px;
+    font-family: "OpenSansBold";
+    margin-top: 8%;
+}
+.textbottom4
+{
+    font-size: 14px;
+    font-family: "OpenSansBold";
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.textbottom5
+{
+    font-size: 14px;
+    font-family: "OpenSans";
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+.textbottom6
+{
+    color: white;
+    font-family: "OpenSans";
+    margin-top: 5%;
+}
+.textbottom7
+{
+    color: white;
+    font-family: "OpenSans";
+    margin-top: 5%;
+    margin-left: 30%;
+}
+.boxsquare
+{
+    width: 90px;
+    height: 90px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    margin-top: 5%;
+    background-color: white;
+    float: left;
+}
+.rectanglelogo1
+{
+	width: 50px;
+	height: 36px;
+    background: rgb(250, 105, 0);
+}
+.rectanglelogo2
+{
+    position: absolute;
+	width: 30px;
+	height: 6px;
+    background: white;
+    margin-top: 16px;
+    margin-left: 10px;
+}
+.rectanglelogo3
+{
+    position: absolute;
+	width: 6px;
+	height: 30px;
+    background: white;
+    margin-top: 5px;
+    margin-left: 22px;
+}
+.triangle
+{
+	width: 0px;
+	height: 0px;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+    border-top: 10px solid rgb(250, 105, 0);;
+}
+.textlogo1
+{
+    margin-top: -48px;
+    margin-left: 60px;
+    font-size: 19px;
+    font-family: "OpenSansBold";
+}
+.textlogo2
+{
+    margin-left: 60px;
+    font-size: 16px;
+    font-family: "OpenSans";
+}
+.col-md-6
+{
+    padding: 0;
+}
+.logobottom
+{
+    margin-top: 10%;
+}
+.imgfacebook
+{
+    background: url("../images/sprite2.png") no-repeat;
+    background-size: 38px;
+    width: 38px;
+    height: 38px;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 5%;
+    border-radius: 3px 0px 0px 3px;
+    display: inline-block;
+}
+.imgtwitter
+{
+    background: url("../images/sprite2.png") no-repeat;
+    background-position: 0 -38px;
+    background-size: 38px;
+    width: 38px;
+    height: 38px;
+    border-width: 1px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-style: solid;
+    display: inline-block;
+}
+.imgpinterest
+{
+    background: url("../images/sprite2.png") no-repeat;
+    background-position: 0 -76px;
+    background-size: 38px;
+    width: 38px;
+    height: 38px;
+    border-width: 1px;
+    border-right-width: 0px;
+    border-style: solid;
+    display: inline-block;
+}
+.imglinkedin
+{
+    background: url("../images/sprite2.png") no-repeat;
+    background-position: 0 -114px;
+    background-size: 38px;
+    width: 38px;
+    height: 38px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0px 3px 3px 0px;
+    display: inline-block;
+}
+.backgroundblue2
+{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(105, 210, 231);
+}
